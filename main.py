@@ -9,7 +9,7 @@ from app import app
 # auth('18017737796','NaMeK123456')
 
 if __name__ == '__main__':
-  app.run(host='0.0.0.0', port=5000, debug=True)
+  app.run(host='0.0.0.0', port=5000, debug=False)
 
   # securities = get_all_securities('stock', '2019-03-12')
   # print (securities)
